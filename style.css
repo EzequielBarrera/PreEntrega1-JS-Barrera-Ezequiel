@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(125, 186, 206, 0.37);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+div button{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+button:hover{
+    transform: scale(2);
+    transition: all ease 0.1s;
+    background-color: rgba(226, 122, 140, 0.37);
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
